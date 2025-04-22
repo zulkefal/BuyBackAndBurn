@@ -2,5 +2,15 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+remappings = [
+    ' @openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/',
+    '@uniswap/v3-core/=lib/v3-core/',
+    '@uniswap/v3-periphery/=lib/v3-periphery/contracts/',
+    'forge-gas-snapshot/=lib/v3-core/lib/forge-gas-snapshot/src/',
+    'forge-std/=lib/v3-core/lib/forge-std/src/',
+    'permit2/=lib/v3-periphery/lib/permit2/',
+    'solmate/=lib/v3-core/lib/solmate/',
+    'v3-periphery/=lib/v3-periphery/'
+]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
